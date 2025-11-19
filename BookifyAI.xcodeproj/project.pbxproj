@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5D7341882ECE6830007C5FFF /* TestChecklist.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D7341872ECE6830007C5FFF /* TestChecklist.md */; };
+		5D73418A2ECE68C8007C5FFF /* dev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D7341892ECE68C0007C5FFF /* dev.txt */; };
+		5D9927E82ECE88D100EB9615 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5D9927E62ECE88CC00EB9615 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5D649C112ECCFC38008269CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		5D649C012ECCFC37008269CC /* BookifyAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookifyAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D649C102ECCFC38008269CC /* BookifyAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookifyAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D649C1A2ECCFC38008269CC /* BookifyAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookifyAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7341872ECE6830007C5FFF /* TestChecklist.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TestChecklist.md; sourceTree = "<group>"; };
+		5D7341892ECE68C0007C5FFF /* dev.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dev.txt; sourceTree = "<group>"; };
+		5D9927E62ECE88CC00EB9615 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,9 @@
 		5D649BF82ECCFC37008269CC = {
 			isa = PBXGroup;
 			children = (
+				5D7341872ECE6830007C5FFF /* TestChecklist.md */,
+				5D9927E62ECE88CC00EB9615 /* .gitignore */,
+				5D7341892ECE68C0007C5FFF /* dev.txt */,
 				5D649C032ECCFC37008269CC /* BookifyAI */,
 				5D649C132ECCFC38008269CC /* BookifyAITests */,
 				5D649C1D2ECCFC38008269CC /* BookifyAIUITests */,
@@ -212,6 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D73418A2ECE68C8007C5FFF /* dev.txt in Resources */,
+				5D7341882ECE6830007C5FFF /* TestChecklist.md in Resources */,
+				5D9927E82ECE88D100EB9615 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,16 @@
+
+1. Core Functionality (MVP)
+   ├── Image selection
+   ├── OCR with bounding boxes
+   └── Text selection
+
+2. Complete Feature Set
+   ├── Claude API integration
+   ├── Display simplified text
+   └── Data persistence (save books/pages)
+
+3. UI/UX Polish
+   ├── Better layouts
+   ├── Animations
+   ├── Color schemes
+   └── Icons and styling

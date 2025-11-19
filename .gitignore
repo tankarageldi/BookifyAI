@@ -1,0 +1,39 @@
+
+# Xcode
+xcuserdata/
+*.xcuserdata
+*.xcscmblueprint
+*.xcuserstate
+DerivedData/
+*.hmap
+
+# Packages
+.swiftpm/
+.build/
+
+# Cocoapods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Swift Package Manager
+.build/
+
+# Archives
+*.xcarchive
+
+# Simulator
+Library/Developer/CoreSimulator
+
+# Environment / Config
+*.xcconfig
+.env
+
